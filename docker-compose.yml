@@ -1,0 +1,11 @@
+services:
+  finance-autopilot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: finance-autopilot-app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped
