@@ -75,7 +75,7 @@ Adheres to "Open source first" guidelines. No unauthorized web scraping.
 ### Data Sources & APIs
 - **Yahoo Finance (`yfinance`):** - Used for market data and company news. 
   - Open-source wrapper over public endpoints.
-- **OpenAI API (`gpt-4o-mini`):** - Powers the core reasoning engine.
+- **OpenAI API (`gpt-4o`):** - Powers the core reasoning engine.
 
 ---
 **🚨 DISCLAIMER:** 
